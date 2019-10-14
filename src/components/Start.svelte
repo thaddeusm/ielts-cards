@@ -19,7 +19,8 @@ function requestPrompt() {
 
 .container {
 	display: grid;
-	padding: 0 20px;
+	border: 10px solid var(--gray);
+	padding-bottom: 40px;
 	height: 100%;
 	grid-template-rows: 30% 10% 1fr;
 	align-items: center;
@@ -44,7 +45,6 @@ main {
 
 footer {
 	text-align: center;
-	padding-bottom: 30px;
 }
 
 button {
@@ -86,5 +86,3 @@ button {
 		{/each}
 	</footer>
 </div>
-
-<Countdown pauseCountdown="{true}" />

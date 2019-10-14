@@ -8,19 +8,13 @@ const getRandomOptionByTag = function(tagChoice) {
 	for (let i=0; i<allPrompts.length; i++) {
 		let prompt = allPrompts[i]
 
-		let found = false
 		for (let k=0; k<prompt.tags.length; k++) {
 			let tag = prompt.tags[k]
 
 			if (tag == tagChoice) {
-				found = true
+				matches.push(prompt)
 				break
 			}
-		}
-
-		if (found) {
-			matches.push(prompt)
-			break
 		}
 	}
 

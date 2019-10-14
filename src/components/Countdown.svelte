@@ -6,7 +6,7 @@
 	export let seconds = 60;
 	export let pauseCountdown = false;
 
-	let fraction = seconds / 4
+	let fraction = seconds / 4;
 
 	let interval = 100 / fraction;
 
