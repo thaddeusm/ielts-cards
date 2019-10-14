@@ -18,17 +18,21 @@ function requestPrompt() {
 }
 
 .container {
-	box-sizing: border-box;
 	display: grid;
 	border: 10px solid var(--gray);
 	padding-bottom: 30px;
 	min-height: 100%;
 	grid-template-rows: 30% 10% auto;
+	grid-template-areas: 
+		"header"
+		"main"
+		"footer";
 	align-items: center;
 }
 
 header {
 	text-align: center;
+	grid-area: header;
 }
 
 h3 {
@@ -41,11 +45,12 @@ h5 {
 }
 
 main {
-	
+	grid-area: main;	
 }
 
 footer {
 	text-align: center;
+	grid-area: footer;
 }
 
 button {
