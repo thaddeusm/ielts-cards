@@ -21,7 +21,7 @@ function requestPrompt() {
 	display: grid;
 	border: 10px solid var(--gray);
 	padding-bottom: 40px;
-	height: 100%;
+	min-height: 100%;
 	grid-template-rows: 30% 10% 1fr;
 	align-items: center;
 }
