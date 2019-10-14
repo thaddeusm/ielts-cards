@@ -18,6 +18,7 @@ function requestPrompt() {
 }
 
 .container {
+	box-sizing: border-box;
 	display: grid;
 	border: 10px solid var(--gray);
 	padding-bottom: 30px;
