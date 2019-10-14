@@ -19,7 +19,9 @@ function requestPrompt() {
 
 .container {
 	display: grid;
-	border: 10px solid var(--gray);
+	border-top: 10px solid var(--gray);
+	border-right: 10px solid var(--gray);
+	border-left: 10px solid var(--gray);
 	padding-bottom: 30px;
 	min-height: 100%;
 	grid-template-rows: 30% 10% auto;
@@ -45,6 +47,7 @@ main {
 
 footer {
 	text-align: center;
+	border-bottom: 10px solid var(--gray);
 }
 
 button {
@@ -62,7 +65,7 @@ button {
 }
 
 .small {
-	margin: 15px;
+	margin: 25px;
 	background: none;
 	color: var(--yellow);
 }
