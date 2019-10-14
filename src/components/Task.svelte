@@ -38,7 +38,7 @@ function reset() {
 	display: grid;
 	padding: 0 20px;
 	height: 100%;
-	grid-template-rows: 20% 1fr 20%;
+	grid-template-rows: 20% 60% 20%;
 	align-items: center;
 }
 
