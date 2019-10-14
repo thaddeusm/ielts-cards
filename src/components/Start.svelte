@@ -20,8 +20,9 @@ function requestPrompt() {
 .container {
 	display: grid;
 	border: 10px solid var(--gray);
+	padding-bottom: 30px;
 	min-height: 100%;
-	grid-template-rows: 30% 10% 60%;
+	grid-template-rows: 30% 10% auto;
 	align-items: center;
 }
 
@@ -44,7 +45,6 @@ main {
 
 footer {
 	text-align: center;
-	margin-bottom: 40px;
 }
 
 button {
