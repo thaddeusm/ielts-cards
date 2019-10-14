@@ -48,7 +48,6 @@ footer {
 }
 
 button {
-	border-radius: .5em;
 	animation-name: fade;
 	animation-duration: 1s;
 	animation-timing-function: ease-in-out;
@@ -59,6 +58,7 @@ button {
 	background: var(--yellow);
 	display: block;
 	margin: 0 auto;
+	border-radius: .5em;
 }
 
 .small {

@@ -68,22 +68,13 @@ footer {
 
 button {
 	border-radius: .5em;
-	animation-name: fade;
-	animation-duration: 1s;
-	animation-timing-function: ease-in-out;
-}
-
-.large {
 	padding: .4em .8em;
 	background: var(--yellow);
 	display: block;
 	margin: 0 auto;
-}
-
-.small {
-	margin: 15px;
-	background: none;
-	color: var(--yellow);
+	animation-name: fade;
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
 }
 </style>
 
@@ -103,9 +94,9 @@ button {
 	</main>
 	<footer>
 		{#if stage == 'End'}
-			<button class="large" on:click={reset}>Back</button>
+			<button on:click={reset}>Back</button>
 		{:else}
-			<button class="large" on:click={reset}>Quit</button>
+			<button on:click={reset}>Quit</button>
 		{/if}
 	</footer>
 </div>
