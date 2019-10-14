@@ -20,8 +20,7 @@ function requestPrompt() {
 .container {
 	display: grid;
 	border: 10px solid var(--gray);
-	padding-bottom: 30px;
-	min-height: 100%;
+	height: 100%;
 	grid-template-rows: 30% 10% auto;
 	grid-template-areas: 
 		"header"
@@ -51,6 +50,10 @@ main {
 footer {
 	text-align: center;
 	grid-area: footer;
+}
+
+#tags {
+	padding: 30px 10px;
 }
 
 button {
@@ -87,8 +90,10 @@ button {
 		<button class="large" on:click={requestPrompt}>Random</button>
 	</main>
 	<footer>
-		{#each tags as tag}
-			<button class="small" on:click={() => dispatch('requestByTag', tag)}>{tag}</button>
-		{/each}
+		<section id="tags">
+			{#each tags as tag}
+				<button class="small" on:click={() => dispatch('requestByTag', tag)}>{tag}</button>
+			{/each}			
+		</section>
 	</footer>
 </div>
