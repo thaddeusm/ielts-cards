@@ -1,0 +1,512 @@
+{
+	"prompts": [
+		{
+			"prompt": "Describe a news report recently heard or read.",
+			"questions": [
+				"what the topic was",
+				"where the event occurred",
+				"who was involved",
+				"how you felt about this news"
+			],
+			"tags": [
+				"news", "event"
+			]
+		},
+		{
+			"prompt": "Describe a sport you would like to learn to play well.",
+			"questions": [
+				"what it is",
+				"what equipment is needed",
+				"how you would learn",
+				"why you would like to learn"
+			],
+			"tags": [
+				"sport", "ability"
+			]
+		},
+		{
+			"prompt": "Describe a useful website.",
+			"questions": [
+				"what it is",
+				"how often you visit it",
+				"what kind of site it is",
+				"what kind of information it offers",
+				"why you think it is useful"
+			],
+			"tags": [
+				"internet", "technology"
+			]
+		},
+		{
+			"prompt": "Describe a journey that didn’t go as planned.",
+			"questions": [
+				"where you were going",
+				"how you were traveling",
+				"who you were with",
+				"what went wrong",
+				"what you would do differently"
+			],
+			"tags": [
+				"travel", "vacation", "entertainment", "place"
+			]
+		},
+		{
+			"prompt": "Describe a song you like.",
+			"questions": [
+				"what kind of song it is",
+				"what the song is about",
+				"when you first heard it",
+				"why you like it"
+			],
+			"tags": [
+				"music", "entertainment"
+			]
+		},
+		{
+			"prompt": "Describe a photograph you like.",
+			"questions": [
+				"what can be seen in the photo",
+				"when it was taken",
+				"who took it",
+				"why you like it"
+			],
+			"tags": [
+				"photography", "entertainment", "art"
+			]
+		},
+		{
+			"prompt": "Talk about a piece of advice you recently received.",
+			"questions": [
+				"when you received it",
+				"who gave it to you",
+				"what the advice was",
+				"how you feel about the advice"
+			],
+			"tags": [
+				"relationship", "profession", "career", "education"
+			]
+		},
+		{
+			"prompt": "Describe an animal you like.",
+			"questions": [
+				"what it is",
+				"where it can be found",
+				"what unique qualities it has",
+				"how it is useful or important",
+				"why you like it"
+			],
+			"tags": [
+				"science", "animal", "nature"
+			]
+		},
+		{
+			"prompt": "Describe something you bought recently that you like.",
+			"questions": [
+				"what it is",
+				"where you bought it",
+				"why you bought it",
+				"why you like it"
+			],
+			"tags": [
+				"shopping", "entertainment"
+			]
+		},
+		{
+			"prompt": "Describe an unusual meal you have had.",
+			"questions": [
+				"what you ate",
+				"where you ate it",
+				"who you were with",
+				"how it was prepared",
+				"why it was unusual for you"
+			],
+			"tags": [
+				"food", "entertainment"
+			]
+		},
+		{
+			"prompt": "Talk about a historical event.",
+			"questions": [
+				"when you learned about it",
+				"where the event took place",
+				"who were involved",
+				"why it is important to remember"
+			],
+			"tags": [
+				"event", "history"
+			]
+		},
+		{
+			"prompt": "Talk about a difficult decision.",
+			"questions": [
+				"what the possibilities were",
+				"when you had to make a choice",
+				"what the outcome was",
+				"why you had to make it"
+			],
+			"tags": [
+				"career", "event", "education"
+			]
+		},
+		{
+			"prompt": "Describe a TV show.",
+			"questions": [
+				"what type of show it is",
+				"who the characters are",
+				"where the show takes place",
+				"your feelings about the show"
+			],
+			"tags": [
+				"entertainment", "story"
+			]
+		},
+		{
+			"prompt": "Talk about a facility you would like to have in your city or town.",
+			"questions": [
+				"what type of facility you would like",
+				"who it could benefit",
+				"where it could be located",
+				"why it would be useful"
+			],
+			"tags": [
+				"lifestyle", "city", "place"
+			]
+		},
+		{
+			"prompt": "Describe a person who makes you laugh.",
+			"questions": [
+				"who the person is",
+				"how you know him / her",
+				"how he / she makes you laugh",
+				"why humor is useful in your life"
+			],
+			"tags": [
+				"relationship", "personality"
+			]
+		},
+		{
+			"prompt": "Describe a childhood toy.",
+			"questions": [
+				"when you received it",
+				"what type of toy it was",
+				"how you played with it",
+				"why you remember it"
+			],
+			"tags": [
+				"entertainment", "childhood"
+			]
+		},
+		{
+			"prompt": "Talk about a time you had to be polite.",
+			"questions": [
+				"when it was",
+				"where the event took place",
+				"who were involved",
+				"why politeness was necessary"
+			],
+			"tags": [
+				"personality", "relationship"
+			]
+		},
+		{
+			"prompt": "Describe a recent development in the place where you live.",
+			"questions": [
+				"what has changed",
+				"why the changes are happening",
+				"how it may impact the area",
+				"how you feel about the change"
+			],
+			"tags": [
+				"lifestyle", "city", "place"
+			]
+		},
+		{
+			"prompt": "Describe your favorite room.",
+			"questions": [
+				"what the room is",
+				"what furniture it contains",
+				"what you do in it",
+				"why it is your favorite room"
+			],
+			"tags": [
+				"home", "personality"
+			]
+		},
+		{
+			"prompt": "Describe a museum you enjoyed visiting.",
+			"questions": [
+				"where the museum is",
+				"when you visited it",
+				"what exhibits the museum contains",
+				"why you enjoyed visiting it"
+			],
+			"tags": [
+				"travel", "personality", "entertainment", "place"
+			]
+		},
+		{
+			"prompt": "Describe a place where you read.",
+			"questions": [
+				"where the place is",
+				"how often you go there",
+				"what things you read there",
+				"why it is a good place to read"
+			],
+			"tags": [
+				"entertainment", "personality", "lifestyle"
+			]
+		},
+		{
+			"prompt": "Talk about a time you had to use your imagination.",
+			"questions": [
+				"when it was",
+				"why you had to use your imagination",
+				"what you did",
+				"how easy or difficult it was"
+			],
+			"tags": [
+				"personality", "lifestyle", "event"
+			]
+		},
+		{
+			"prompt": "Describe a person you know who you think dresses well.",
+			"questions": [
+				"who the person is",
+				"how long you have known them",
+				"what clothes they like to wear",
+				"why you think they dress well"
+			],
+			"tags": [
+				"personality", "relationship", "lifestyle"
+			]
+		},
+		{
+			"prompt": "Describe a major street in a city where you have lived.",
+			"questions": [
+				"where the street is",
+				"how often you are there",
+				"what places are located on the street",
+				"why you think the street is so important"
+			],
+			"tags": [
+				"place", "city", "lifestyle"
+			]
+		},
+		{
+			"prompt": "Talk about a time you experienced extreme weather.",
+			"questions": [
+				"when it happened",
+				"what the weather was like",
+				"how long the weather lasted",
+				"how you dealt with the weather"
+			],
+			"tags": [
+				"place", "event", "science"
+			]
+		},
+		{
+			"prompt": "Talk about a person you know whose job is important to society.",
+			"questions": [
+				"who the person is",
+				"what their job is",
+				"what they do at work",
+				"why their job is important"
+			],
+			"tags": [
+				"relationship", "lifestyle", "career"
+			]
+		},
+		{
+			"prompt": "Describe a garden or park you have visited.",
+			"questions": [
+				"where it is",
+				"what it looks like",
+				"what people can do there",
+				"why it is memorable to you"
+			],
+			"tags": [
+				"place", "city", "lifestyle"
+			]
+		},
+		{
+			"prompt": "Talk about a person you know who collects things.",
+			"questions": [
+				"what they collect",
+				"how the collection is stored",
+				"how long they have collected",
+				"why they enjoy it"
+			],
+			"tags": [
+				"relationship", "lifestyle"
+			]
+		},
+		{
+			"prompt": "Talk about a film you did not enjoy.",
+			"questions": [
+				"what the film was",
+				"when you watched it",
+				"what the film was about",
+				"why you did not enjoy it"
+			],
+			"tags": [
+				"entertainment", "lifestyle"
+			]
+		},
+		{
+			"prompt": "Describe a shop you often go to.",
+			"questions": [
+				"where it is",
+				"how often you go there",
+				"what things you buy there",
+				"why you choose to buy from that shop"
+			],
+			"tags": [
+				"shopping", "lifestyle", "place"
+			]
+		},
+		{
+			"prompt": "Talk about a musical event you attended.",
+			"questions": [
+				"what the event was",
+				"where it took place",
+				"what kind of music was played",
+				"whether you enjoyed it"
+			],
+			"tags": [
+				"music", "entertainment", "event", "place"
+			]
+		},
+		{
+			"prompt": "Talk about a person you know who can speak two or more languages.",
+			"questions": [
+				"who the person is",
+				"how long you have known them",
+				"what languages they speak",
+				"how you think they learned"
+			],
+			"tags": [
+				"relationship", "ability", "relationship"
+			]
+		},
+		{
+			"prompt": "Describe a team you have been a member of.",
+			"questions": [
+				"what the team was",
+				"when you joined it",
+				"what your role in the team was",
+				"how you felt about your experience"
+			],
+			"tags": [
+				"relationship", "career", "lifestyle"
+			]
+		},
+		{
+			"prompt": "Talk about a time you forgot something.",
+			"questions": [
+				"what you forgot",
+				"why you forgot it",
+				"when it happened",
+				"how you coped without it"
+			],
+			"tags": [
+				"event", "personality", "lifestyle"
+			]
+		},
+		{
+			"prompt": "Talk about a time you taught someone something.",
+			"questions": [
+				"who you taught",
+				"what you taught them",
+				"when it happened",
+				"why your help was important"
+			],
+			"tags": [
+				"event", "relationship", "career", "lifestyle"
+			]
+		},
+		{
+			"prompt": "Talk about an activity you like that you can do for free (without paying money).",
+			"questions": [
+				"what the activity is",
+				"where you can do it",
+				"how often you do it",
+				"why you like it"
+			],
+			"tags": [
+				"event", "personality", "lifestyle"
+			]
+		},
+		{
+			"prompt": "Talk about a school rule you didn’t like.",
+			"questions": [
+				"what the rule was",
+				"how it was enforced",
+				"where the rule was applied",
+				"why you didn’t like it"
+			],
+			"tags": [
+				"event", "education", "career"
+			]
+		},
+		{
+			"prompt": "Describe a chore or errand that technology has made obsolete.",
+			"questions": [
+				"what the action is",
+				"when it was commonly done",
+				"how technology has replaced it",
+				"how you feel about the change"
+			],
+			"tags": [
+				"technology", "lifestyle"
+			]
+		},
+		{
+			"prompt": "Describe a person who accidentally became your friend.",
+			"questions": [
+				"who the person is",
+				"how you met them",
+				"what made you become friends",
+				"your connection to them today"
+			],
+			"tags": [
+				"relationship", "lifestyle"
+			]
+		},
+		{
+			"prompt": "Describe a method to save money.",
+			"questions": [
+				"what the method is",
+				"who can use it",
+				"when you learned it",
+				"how it compares to other methods"
+			],
+			"tags": [
+				"career", "lifestyle", "personality"
+			]
+		},
+		{
+			"prompt": "Describe a child that you know.",
+			"questions": [
+				"who the child is",
+				"how you know them",
+				"what their personality is",
+				"your expectations for their future"
+			],
+			"tags": [
+				"relationship", "personality"
+			]
+		},
+		{
+			"prompt": "Talk about an accident you saw.",
+			"questions": [
+				"what the accident was",
+				"who was involved",
+				"where it occurred",
+				"how it affected you"
+			],
+			"tags": [
+				"event", "place", "personality"
+			]
+		}
+	]
+}
