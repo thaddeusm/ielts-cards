@@ -48,6 +48,8 @@ main {
 footer {
 	text-align: center;
 	border-bottom: 10px solid var(--gray);
+	border-right: 10px solid var(--gray);
+	border-left: 10px solid var(--gray);
 }
 
 button {
@@ -65,7 +67,7 @@ button {
 }
 
 .small {
-	margin: 25px;
+	margin: 20px;
 	background: none;
 	color: var(--yellow);
 }
