@@ -21,7 +21,7 @@ function requestPrompt() {
 	display: grid;
 	border: 10px solid var(--gray);
 	height: 100%;
-	grid-template-rows: 30% 10% auto;
+	grid-template-rows: 30% 10% 60%;
 	grid-template-areas: 
 		"header"
 		"main"
@@ -54,7 +54,6 @@ footer {
 
 #tags {
 	margin: 20px;
-	height: 100%;
 }
 
 button {
