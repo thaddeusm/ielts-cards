@@ -18,9 +18,11 @@ function requestPrompt() {
 }
 
 .container {
+	box-sizing: border-box;
 	display: grid;
 	height: 100%;
 	grid-template-rows: 30% 10% 60%;
+	border: 10px solid var(--gray);
 	grid-template-areas: 
 		"header"
 		"main"
@@ -31,9 +33,6 @@ function requestPrompt() {
 header {
 	text-align: center;
 	grid-area: header;
-	border-top: 10px solid var(--gray);
-	border-right: 10px solid var(--gray);
-	border-left: 10px solid var(--gray);
 }
 
 h3 {
@@ -46,17 +45,12 @@ h5 {
 }
 
 main {
-	grid-area: main;
-	border-right: 10px solid var(--gray);
-	border-left: 10px solid var(--gray);	
+	grid-area: main;		
 }
 
 footer {
 	text-align: center;
 	grid-area: footer;
-	border-right: 10px solid var(--gray);
-	border-left: 10px solid var(--gray);
-	border-bottom: 10px solid var(--gray);
 }
 
 button {
@@ -94,7 +88,7 @@ button {
 	</main>
 	<footer>
 		<section id="tags">
-			{#each tags as tag}
+			{#each tags.slice(0, 5) as tag}
 				<button class="small" on:click={() => dispatch('requestByTag', tag)}>{tag}</button>
 			{/each}			
 		</section>

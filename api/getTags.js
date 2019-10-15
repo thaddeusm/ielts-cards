@@ -1,5 +1,17 @@
 import options from './prompts.json'
 
+const shuffle = function(arr) {
+	var j, x, i;
+    for (i = arr.length - 1; i > 0; i--) {
+        j = Math.floor(Math.random() * (i + 1));
+        x = arr[i];
+        arr[i] = arr[j];
+        arr[j] = x;
+    }
+
+    return arr
+}
+
 const getTags = function() {
 	// isolate prompts with matching tag
 	let allPrompts = options.prompts
@@ -17,7 +29,7 @@ const getTags = function() {
 		}
 	}
 
-	return tags
+	return shuffle(tags)
 }
 
 module.exports = (req, res) => {
