@@ -84,7 +84,7 @@ button {
 		</h5>
 	</header>
 	<main>
-		<button class="large" on:click={requestPrompt}>Random</button>
+		<button class="large" on:click={requestPrompt}>random</button>
 	</main>
 	<footer>
 		<section id="tags">

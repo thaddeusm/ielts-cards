@@ -94,9 +94,9 @@ button {
 	</main>
 	<footer>
 		{#if stage == 'End'}
-			<button on:click={reset}>Back</button>
+			<button on:click={reset}>back</button>
 		{:else}
-			<button on:click={reset}>Quit</button>
+			<button on:click={reset}>cancel</button>
 		{/if}
 	</footer>
 </div>
