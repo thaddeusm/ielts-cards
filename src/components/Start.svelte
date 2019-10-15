@@ -20,7 +20,7 @@ function requestPrompt() {
 .container {
 	display: grid;
 	height: 100%;
-	grid-template-rows: 30% 10% 60%;
+	grid-template-rows: 30% 10% auto;
 	grid-template-areas: 
 		"header"
 		"main"
@@ -60,7 +60,7 @@ footer {
 }
 
 #tags {
-	margin: 20px;
+	padding: 20px;
 }
 
 button {
