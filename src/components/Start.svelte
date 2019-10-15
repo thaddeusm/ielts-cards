@@ -20,7 +20,7 @@ function requestPrompt() {
 .container {
 	display: grid;
 	height: 100%;
-	grid-template-rows: 30% 10% auto;
+	grid-template-rows: 30% 10% 60%;
 	grid-template-areas: 
 		"header"
 		"main"
@@ -57,10 +57,6 @@ footer {
 	border-right: 10px solid var(--gray);
 	border-left: 10px solid var(--gray);
 	border-bottom: 10px solid var(--gray);
-}
-
-#tags {
-	padding: 20px;
 }
 
 button {
