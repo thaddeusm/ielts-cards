@@ -53,7 +53,8 @@ footer {
 }
 
 #tags {
-	padding: 30px 10px;
+	margin: 20px;
+	height: 100%;
 }
 
 button {
