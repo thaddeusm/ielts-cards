@@ -19,7 +19,6 @@ function requestPrompt() {
 
 .container {
 	display: grid;
-	border: 10px solid var(--gray);
 	height: 100%;
 	grid-template-rows: 30% 10% 60%;
 	grid-template-areas: 
@@ -32,6 +31,9 @@ function requestPrompt() {
 header {
 	text-align: center;
 	grid-area: header;
+	border-top: 10px solid var(--gray);
+	border-right: 10px solid var(--gray);
+	border-left: 10px solid var(--gray);
 }
 
 h3 {
@@ -44,12 +46,17 @@ h5 {
 }
 
 main {
-	grid-area: main;	
+	grid-area: main;
+	border-right: 10px solid var(--gray);
+	border-left: 10px solid var(--gray);	
 }
 
 footer {
 	text-align: center;
 	grid-area: footer;
+	border-right: 10px solid var(--gray);
+	border-left: 10px solid var(--gray);
+	border-bottom: 10px solid var(--gray);
 }
 
 #tags {
