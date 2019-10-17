@@ -37,6 +37,7 @@ header {
 
 h3 {
 	color: var(--white);
+	border-bottom: 1px solid var(--black);
 }
 
 h5 {
@@ -72,12 +73,18 @@ button {
 	background: none;
 	color: var(--yellow);
 }
+
+a {
+	text-decoration: none;
+	border-bottom: 1px solid var(--yellow);
+	color: var(--white);
+}
 </style>
 
 <div class="container">
 	<header>
 		<h3>
-			IELTS Speaking
+			<a href="https://www.ielts.org/about-the-test/test-format" target="_blank">IELTS</a> Speaking
 		</h3>
 		<h5>
 			Task 2 Practice
